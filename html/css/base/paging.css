@@ -1,0 +1,92 @@
+.m-paging{
+    width: 100%;
+    font-family: Misa font;
+    font-size: 13px;
+    color: #454545;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-top: 16px;
+    
+}
+.m-paging .m-page-number{
+    display: flex;
+}
+.m-paging-center{
+    display: flex;
+}
+.m-paging .button_paging{
+    height: 30px;
+    /* width: 30px; */
+    cursor: pointer;
+    min-width: 24px;
+    padding: 0 4px;
+    margin: 0 4px;
+
+    line-height: 30ox;
+    text-align: center;
+}
+.m-paging .m-paging-left{
+    position: absolute;
+    left: 0px;
+    display: flex;
+}
+.m-paging .m-paging-right{
+    position: absolute;
+    right: 0px;
+}
+/* .m-paging-center button.m-btn-number { */
+button.m-btn-number{
+    /* border-radius: 50%; */
+    border: 1px solid #bbbbbb ;
+}
+.m-paging-center button.m-btn-number:hover{
+    background-color: #fff;
+    color: #000;
+}
+button.m-btn-number-selected{
+    background-color: #019160;
+    color: #fff;
+}
+.m-paging .m-paging-center button.m-btn-first{
+    /* background-image: url(../../assets/icon/btn-firstpage.svg);
+    border: none;
+    background-repeat: no-repeat;
+    background-position: center; */
+    background-color:#bbbbbb;
+    background-size: 24px;
+
+}
+.m-paging .m-paging-center button.m-btn-last,button.m-btn-first{
+    /* background-image: url(../../assets/icon/btn-lastpage.svg);
+    border: none;
+    background-repeat: no-repeat;
+    background-position: center; */
+    background-color:#bbbbbb;
+    background-size: 24px;
+    border: none;
+}
+.m-paging .m-paging-center button.m-btn-preview{
+    background-image: url(../../assets/icon/btn-prev-page.svg);
+    border: none;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 24px;
+    background-color:#bbbbbb;
+}
+.m-paging .m-paging-center button.m-btn-next{
+    background-image: url(../../assets/icon/btn-next-page.svg);
+    border: none;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color:#bbbbbb;
+    background-size: 24px;
+}
+
+.m-paging .m-paging-right{
+    display: flex;
+
+}
+.m-paging .m-paging-right p.special-character{
+    font-weight: bolder;
+}

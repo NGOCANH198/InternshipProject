@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/components/popup.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <button id="myButton">
+        Click me
+    </button>
+    <div id="myPopup" class="popup">
+        <div class="popup-content">
+            <h1>Sửa tài sản</h1>
+            <form class="form-validation">
+                <div class="sub-entry">
+                    <div class="form-row form-input-name-row">
+                        <div>Mã tài sản <span class="red-text">*</span></div>
+                        <label>
+                            <input name="field1" type="text">
+                        </label>
+                    </div>
+
+                    <div class="form-row form-input-name-row">
+                        <label>
+                            <div>Mã bộ phận sử dụng <span class="red-text">*</span></div>
+
+                        </label>
+                        <div class="">
+                            <div class="position-relative">
+                                <input type="text" class="filter italic-font" value
+                                    placeholder="Chọn mã bộ phận sử dụng">
+                                <div class="square-24-24-right">
+                                    <span class="sprite-dropdown sprite-center"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-row form-input-name-row">
+                        <label>
+                            <div>Mã loại tài sản <span class="red-text">*</span></div>
+
+                        </label>
+                        <div class="">
+                            <div class="position-relative">
+                                <input type="text" class="filter italic-font" value placeholder="Chọn mã loại tài sản">
+                                <div class="square-24-24-right">
+                                    <span class="sprite-dropdown sprite-center"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-row form-input-name-row">
+                        <label>
+                            <div>Số lượng <span class="red-text">*</span></div>
+
+                        </label>
+                        <div class="">
+                            <div class="position-relative">
+                                <input type="number" class="filter number" value="01"
+                                    placeholder="Chọn mã loại tài sản">
+                                <div class="square-24-24-right">
+                                    <span class="sprite-updown-arrow sprite-center"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-row form-input-name-row">
+                        <label>
+                            <div>Tỷ lệ hao mòn (%) <span class="red-text">*</span></div>
+                            <div class="">
+                                <div class="position-relative">
+                                    <input type="number" class="filter number" value="0"
+                                        placeholder="Chọn mã loại tài sản">
+                                    <div class="square-24-24-right">
+                                        <span class="sprite-updown-arrow sprite-center"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </label>
+                    </div>
+
+                    <div class="form-row form-input-name-row">
+                        <label>
+                            <div>Ngày mua <span class="red-text">*</span></div>
+                            <input name="field3" type="date" class="date-input">
+                        </label>
+                    </div>
+                </div>
+                <div class="clearfix">
+                    <div class="sub-entry-2 margin-left">
+                        <div class="main-content">
+                            <div class="form-row form-input-name-row special-margin-top">
+                                <label>
+                                    <div>Tên tài sản<span class="red-text">*</span></div>
+                                    <input name="field3" class="italic" type="text" placeholder="Nhập tên tài sản">
+                                </label>
+                            </div>
+                            <div class="form-row form-input-name-row">
+                                <label>
+                                    <div>Tên bộ phận sử dụng<span class="red-text">*</span></div>
+                                    <input name="field3 width-100" type="text" disabled>
+                                </label>
+                            </div>
+                            <div class="form-row form-input-name-row">
+                                <label>
+                                    <div>Tên loại tài sản<span class="red-text">*</span></div>
+                                    <input name="field3 width-100" type="text" disabled>
+                                </label>
+                            </div>
+
+                            <div class="clearfix">
+                                <div class="sub-entry-3 ">
+                                    <div class="main-content">
+                                        <div class="form-row form-input-name-row">
+                                            <label>
+                                                <div>Nguyên giá<span class="red-text">*</span></div>
+
+                                            </label>
+                                            <div class="">
+                                                <div class="position-relative">
+                                                    <input type="number" class="filter number-without-icon" value="0"
+                                                        placeholder="Chọn mã loại tài sản">
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-row form-input-name-row">
+                                            <label>
+                                                <div>Giá trị hao mòn<span class="red-text">*</span></div>
+
+                                            </label>
+                                            <div class="">
+                                                <div class="position-relative">
+                                                    <input type="number" class="filter number-without-icon" value="0"
+                                                        placeholder="Chọn mã loại tài sản">
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-row form-input-name-row">
+                                        <label>
+                                            <div>Ngày bắt đầu sử dụng<span class="red-text">*</span></div>
+                                            <input name="field3" type="date" class="date-input">
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="clearfix">
+                                    <div class="sub-entry-4 margin-left">
+                                        <div class="main-content">
+                                            <div class="form-row form-input-name-row">
+                                                <label>
+                                                    <div>Số năm sử dụng<span class="red-text">*</span></div>
+
+                                                </label>
+                                                <div class="">
+                                                    <div class="position-relative">
+                                                        <input type="number" class="filter number-without-icon"
+                                                            value="0" placeholder="Chọn mã loại tài sản">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="form-row form-input-name-row">
+                                                <label>
+                                                    <div>Năm theo dõi<span class="red-text">*</span></div>
+
+                                                </label>
+                                                <div class="">
+                                                    <div class="position-relative">
+                                                        <input type="number" class="filter number-without-icon"
+                                                            value="2021" placeholder="Chọn mã loại tài sản" disabled>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="form__div--button">
+                    <button class="button button__background--cancel">Hủy</button>
+                    <button class="button button__background--save">Lưu</button>
+                </div>
+
+            </form>
+        </div>
+    </div>
+    <script>
+        myButton.addEventListener("click", function () {
+            myPopup.classList.add("show");
+        });
+        closePopup.addEventListener("click", function () {
+            myPopup.classList.remove("show");
+        });
+        window.addEventListener("click", function (event) {
+            if (event.target == myPopup) {
+                myPopup.classList.remove("show");
+            }
+        });
+
+        var date_input = document.getElementsByClassName("date-input");
+
+        for (var i = 0; i < date_input.length; ++i) {
+            var item = date_input[i];
+            item.valueAsDate = new Date()
+        }
+    </script>
+</body>
+
+</html>

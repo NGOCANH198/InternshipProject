@@ -1,0 +1,7 @@
+@import "../css/components/button.css";
+@import "../css/components/input.css";
+@import "../css/components/table.css";
+@import "../css/components/popup.css";
+@import "./layout/dsts.css";
+@import "./layout/header.css";
+@import "./layout/pagination.css";

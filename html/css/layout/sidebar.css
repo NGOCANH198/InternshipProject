@@ -1,0 +1,37 @@
+.sidebar {
+  width: 200px;
+  height: 100%;
+  background-color: var(--color-dark);
+  flex-shrink: 0;
+  box-sizing: border-box;
+  border-right: 1px solid #bbb;
+
+}
+.menu-item {
+  height: 44px;
+  width: 100%;
+  padding-left: 12px;
+  background-color: #213253;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  /* border-radius: 6px; */
+}
+.menu-item .menu-icon {
+  height: 24px;
+  width: 24px;
+  margin-right: 12px;
+  color: #fff;
+  background-image: url(../../assets/img/Sprites.64af8f61.svg );
+  background-repeat: no-repeat;   
+}
+.menu-item:hover {
+  background: #27395E;
+}
+.menu-item.menu-item-focus {
+  background-color: #3A4B54;
+  color: #ffffff;
+}
+.menu-item .menu-text{
+  color: var(--color-sidebar);
+}

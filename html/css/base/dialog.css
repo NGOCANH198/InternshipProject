@@ -1,0 +1,69 @@
+.m-dialog {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(64, 118, 141, 0.334);
+  display: flex;
+  justify-content: center;
+  padding-left: 32px;
+}
+.m-dialog .m-dialog-content {
+  position: absolute;
+  min-width: 900px;
+
+  border-radius: 5px;
+  height: calc(100vh - 32px);
+  top: 16px;
+  /* transform: translate(-50%,-20%); */
+  background-color: white;
+  border-radius: 4px solid;
+}
+.m-dialog .m-dialog-content .m-dialog-header {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+/* css form header */
+.m-dialog .m-dialog-content .m-dialog-header .m-dialog-header-left {
+  padding: 16px 16px 12px 16px;
+  display: flex;
+  align-items: center;
+}
+.m-dialog .m-dialog-content .m-dialog-header .m-dialog-header-left .dialog-header-title {
+  font-family: var(--font-weight);
+  font-size: 24px;
+  margin-right: 32px;
+}
+.m-dialog .m-dialog-content .m-dialog-header .m-dialog-header-left .comboboxcheck {
+  margin-right: 32px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.m-dialog .m-dialog-content .m-dialog-header .m-dialog-header-left .comboboxcheck input {
+  width: 24px;
+  height: 24px;
+}
+.m-dialog .m-dialog-content .m-dialog-header .m-dialog-header-left .label-dialog {
+  font-size: 16px;
+  padding-left: 8px;
+}
+.m-dialog .m-dialog-content .m-dialog-header .m-dialog-header-right {
+  padding: 12px;
+  background-color: pink;
+  display: flex;
+}
+/* Content */
+.m-dialog-body{
+  padding-left: 32px;
+}
+.m-dialog-body .content-a{
+  display: flex;
+}
+/* Content-a-right */
+.m-dialog-body .content-a .content-a-left{
+  background-color: pink;
+  width: 100%;
+}

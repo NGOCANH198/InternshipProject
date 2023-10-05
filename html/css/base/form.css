@@ -1,0 +1,9 @@
+.content .content-a{
+    display: flex;
+
+}
+
+.content .content-left{
+    min-width: 400px;
+    background-color: green;
+}

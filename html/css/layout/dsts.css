@@ -1,0 +1,171 @@
+@import "../base.css";
+
+* {
+    box-sizing: border-box;
+}
+
+/* body {
+    font-family: Arial, Helvetica, sans-serif;
+} */
+
+
+.menu li a {
+    text-decoration: none;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav.nav-leftside {
+    float: left;
+    background-color: #1c3048;
+    box-shadow: inset 0 3px 6px rgba(0, 0, 0, .16);
+    width: 66px;
+    height: 100%;
+    position: relative;
+}
+
+nav.nav-leftside li {
+    margin-left: 11px;
+    margin-right: 11px;
+}
+
+nav.nav-leftside li:hover {
+    box-shadow: 5px 5px 20px 10px rgba(255, 255, 255, 0.5);
+
+}
+
+nav.nav-leftside .sprite-square-arrow-left:hover {
+    box-shadow: 5px 5px 20px 10px rgba(255, 255, 255, 0.5);
+
+}
+
+/* Style the list inside the menu */
+nav.nav-leftside ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0px;
+}
+
+article {
+    float: left;
+    padding: 20px;
+    width: 70%;
+    background-color: #f1f1f1;
+    height: 300px;
+    /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.box {
+    display: flex;
+    height: 100vh;
+}
+
+.blue {
+    width: 100%;
+    background-color: #f4f7ff;
+}
+
+.margin__nav--logo {
+    margin: 11px 15px 19px 15px;
+}
+
+.margin__asided--input {
+    margin-left: 11px;
+}
+
+.margin__asided--button {
+    margin-left: 10px;
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.menu li a:hover:not(.active) {
+    background-color: #111;
+}
+
+/* .menu li a.active {
+    float: right;
+} */
+
+.menu li.active {
+    background-color: #1aa4c8;
+    border-radius: 6px;
+    opacity: 100%;
+}
+
+.aside__main--top {
+    margin-top: 13px;
+    margin-bottom: 13px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.aside__main--padding {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.aside__main--left {
+    display: inline-block;
+}
+
+.aside__main--right {
+    display: inline-block;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 18%;
+}
+
+
+.sidebar__icon--description {
+    color: aliceblue;
+    font-size: 13px;
+    margin-right: auto
+}
+
+.menu__li--item-padding {
+    padding-left: 10px;
+}
+
+
+.menu__hidden--wrapper {
+    display: flex;
+    position: relative;
+    width: 80%;
+    align-items: center;
+}
+
+footer {
+    color: wheat;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    justify-content: flex-end;
+    border-top: 1px solid white;
+    opacity: 50%;
+}
+
+nav.nav-leftside .square-24-24:hover,
+nav.nav-leftside .square-20-20:hover,
+nav.nav-leftside .square-36-36:hover,
+nav.nav-leftside .rectangle-40-44:hover,
+nav.nav-leftside .rectangle-40-40:hover,
+nav.nav-leftside .rectangle-25-59:hover {
+    box-shadow: none !important;
+}

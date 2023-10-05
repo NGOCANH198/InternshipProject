@@ -1,0 +1,79 @@
+@import "../base.css";
+
+/* Style the header */
+body {
+    background-color: #f4f7ff;
+    --mainColor: #ffffff;
+    --margin-left-text-text: 0.875rem;
+    --margin-left-text-icon: 1rem
+}
+
+.header__span--title {
+    margin-left: var(--margin-items--left);
+}
+
+
+
+.header__div--center {
+    display: flex;
+    align-items: center;
+}
+
+header {
+    background-color: var(--mainColor);
+    height: 44px;
+    display: flex;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.header__year--margin {
+    margin-left: var(--margin-left-text-text);
+}
+
+.header__yearIcon--margin {
+    margin-left: var(--margin-left-text-icon);
+}
+
+.header__span--faculty {
+    margin-top: 14px;
+    margin-bottom: 14px;
+    font-weight: 500;
+    color: #001031;
+}
+
+.header__icon--margin {
+    margin-left: 24px;
+}
+
+
+
+.header__right {}
+
+.header__right--year {
+    background-color: rgba(26, 164, 200, .2);
+    border-radius: var(--button-border-radius);
+
+    height: 30px;
+    margin-left: 26px;
+    overflow: hidden;
+    padding-left: 11px;
+    padding-right: 8px;
+    font-size: 13px;
+}
+
+.header__div--wrapIcon {
+    display: inline-block;
+    text-align: right;
+    width: 100%;
+}
+
+.header__right--icon {}
+
+.header__right--subicon {}
+
+.headeRightr__arrow--marginl {
+    margin-left: 0.5rem;
+    margin-right: var(--margin-items--right);
+}

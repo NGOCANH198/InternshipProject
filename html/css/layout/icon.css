@@ -1,0 +1,73 @@
+.m-icon-tongquan{
+background-position:  -30px -1585px;}
+
+.m-icon-cash{
+    background-position:-73px -1628px;
+}
+.m-icon-tiengui{
+    background-position: -117px -1628px;
+}
+.m-icon-muahang{
+    background-position:  -161px -1585px;
+}
+.m-icon-banhang{
+background-position:  -204px -1628px;
+}
+.m-icon-quanly{
+    background-position: -249px -1628px;
+}
+.m-icon-kho{
+    background-position: -291px -1628px;
+}
+.m-icon-congcu{
+    background-position:-336px -1628px;
+
+}
+.m-icon-taikhoan{
+    background-position:-378px -1630px;
+
+}
+.m-icon-thue{
+    background-position: -423px -1630px;
+
+}
+.m-icon-giathanh{
+    background-position: -467px -1628px;
+
+}
+.m-icon-baocao{
+    background-position:-547px -1628px;
+
+}
+.m-icon-phantich{
+    background-position:-204px -1664px;
+
+}
+.m-icon-menu{
+   background-position: -843px -30px;
+}
+.m-icon-dropdown{
+    background-position:-1076px -30px;
+ }
+ .m-icon-avatar{
+    background-position: -352px  -894px;
+ }
+ .m-icon-expand_up{
+    background-position: -896px -359px;
+ }
+ .m-icon-thacmac{
+    background-position:-89px -144px;
+ }
+ .m-icon-close{
+ background-position:-144px -144px;
+ }
+.menu-icon {
+    height: 24px;
+    width: 24px;
+    color: #000;
+    background-image: url(../../assets/img/Sprites.64af8f61.svg );
+    background-repeat: no-repeat;   
+  }
+
+
+

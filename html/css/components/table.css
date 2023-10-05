@@ -1,0 +1,97 @@
+@import "../base.css";
+
+.container {}
+
+.table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 23px;
+    background-color: transparent;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    border-radius: 3.5px;
+    border: 1px solid #afafaf;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, .16);
+    overflow: hidden;
+}
+
+th {
+    text-align: left;
+}
+
+td {
+    padding: 8px;
+}
+
+
+/* border */
+.table-bordered {
+    border-bottom: 1px solid #dddddd;
+    border-top: 1px solid #dddddd;
+    border-left: 1px solid #dddddd;
+    border-right: 1px solid #dddddd;
+}
+
+.table-bordered>thead>tr>th {
+    border-bottom: 1px solid #dddddd;
+}
+
+.table>tbody>tr:hover {
+    background-color: #d1edf4;
+}
+
+/* th, td của table */
+.table>thead>tr>th {
+    padding: 6.5px 10px;
+    line-height: 1.846;
+    font-size: 13px;
+    font-weight: 700;
+    color: #001031;
+}
+
+.table>thead>tr {
+    background-color: #f5f5f5;
+}
+
+.table>tbody>tr>td {
+    border-bottom: 1px solid #dddddd;
+    font-size: 13px;
+}
+
+
+/*checkbox */
+.checkbox {
+    color: #090f39;
+    width: 14px;
+    height: 14px;
+}
+
+/* thay đổi trạng thái column*/
+tbody>tr>:nth-child(7),
+tbody>tr>:nth-child(8),
+tbody>tr>:nth-child(9),
+tbody>tr>:nth-child(10) {
+    text-align: right;
+}
+
+tbody>tr>:nth-child(2) {
+    text-align: center;
+}
+
+/* thay đổi trạng thái tiêu đề cột*/
+.table>thead>tr>:nth-child(7),
+.table>thead>tr>:nth-child(8),
+.table>thead>tr>:nth-child(9),
+.table>thead>tr>:nth-child(10) {
+    text-align: right;
+}
+
+
+.text__align--right {
+    text-align: right !important;
+}
+
+.table>thead>tr>th:nth-child(1),
+.table>tbody>tr>td:nth-child(1) {
+    padding-left: 16px;
+}

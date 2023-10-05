@@ -1,0 +1,33 @@
+.button{
+    background-color: #019160;
+    border-radius: 4px;
+    height : var(--height-default);
+    color: #ffffff;
+    padding : 0 24px 0 24px;
+    display: flex;
+    border: none;
+    align-items: center;
+    font-family: Misa font;
+    cursor: pointer;
+    min-width: 100px;
+    max-width: 300px;
+ 
+}
+.button:hover{
+    background-color: #2FBE8E ;
+}
+.button:active{
+    background-color:#01B075 ;
+}
+
+/*button icon khac biet la */
+.button__icon{
+    padding : 0 16px;
+    background-image: url(../../assets/icon/add.png);
+    background-repeat: no-repeat;
+    background-position-x: 16px;
+    background-position-y: center;
+    background-size: 16px 16px;
+    padding-left:40px;
+
+}

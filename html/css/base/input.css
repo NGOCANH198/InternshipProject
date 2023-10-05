@@ -1,0 +1,91 @@
+.fieldinput__label{
+    color: #000000;
+    size: 13px;
+    font-size: medium;
+    display: flex;
+}
+.field_input{
+    margin-top:4px;
+    height: 40px;
+    border: 1px solid #bbbbbb ;
+    border-radius: 4px;
+    position: relative;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+}
+.field_input::placeholder{
+    size: 11px;
+    color: #bbbbbb;
+    
+}
+
+.field_input__typingstate{
+    border: 1px solid #019160;
+}
+.field_input_donestate{
+    color: #000000;
+    border: 1px solid #BBBBBB;
+}
+.fieldinput__deletebutton{
+    padding: 10px;
+    position: absolute;
+    height: 16px;
+    width: 16px;
+    right: 10px;
+    top: 10px;
+    background-image: url(../../assets/icon/x.svg);
+    background-repeat: no-repeat;
+    background-size: 12px 12px;
+    border-radius: 50%;
+    border: none;
+    background-position-x: center;
+    background-position-y: center;
+    cursor: pointer;
+}
+.field_input_inputtext{
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 36px;
+    border: none;
+}
+.field_input__errorstate{
+    border-color: #ff4747;
+}
+.seachbox{
+    height: 40px;
+    max-width: 1200px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid;
+    width: 30%;
+    
+}
+.searchbox__input::placeholder{
+    size: 12px;
+    color: #bbbbbb;
+}
+.searchbox__icon{
+    height: 16px;
+    background-repeat: no-repeat;
+    background-position-x: 8px;
+    background-position-y: center;
+    width: 16px;
+    border-radius: 50%;
+    margin-left: 16px;
+    padding-right: 8px;
+    padding-top: 12px;
+}
+.searchbox__input{
+    height: 38px;
+    border: 1px solid #bbb;
+    padding-top: 1px;
+    padding-right: 8px;
+    outline: none;
+    width: 100%;
+    min-width: 200px;
+    
+}

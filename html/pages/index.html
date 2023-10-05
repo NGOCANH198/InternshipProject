@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/main.css">
+    <title>Document</title>
+</head>
+<body>
+    Welcome to Misa!
+    <div class="m-row">
+        <label class="label 1" for="">1.Button</label>
+        <button class="button">
+            Thêm mới
+        </button>
+    </div> 
+    <div class="m-row">
+        <label for="">2.Button icon </label>
+        <button class="button button__icon">Thêm mới</button>
+    </div> 
+    <div class="m-row">
+        <label for="">3.Combobox mac dinh </label>
+        <div class="combobox">
+            <input type="text" placeholder="Chọn/Nhận thông tin" class="combobox__input" >
+            <button class="combobox__button"></button>
+        </div>
+        <div class="combobox__data">
+            <div class="combobox__item">Trang thai 1</div>
+            <div class="combobox__item">Trang thai 2</div>
+            <div class="combobox__item combobox__item--selected">Trang thai 3</div>
+            <div class="combobox__item combobox__item--selected haveicon">
+                Trang thai 4    
+            </div>
+        </div>
+    </div> 
+    <div class="m-row">
+        <label for="">4.Field Input _ Label</label>
+        <div class="input__label">
+        <label for="" class="fieldinput__label ">Label</label>
+        <div class="field_input field_input__typingstate field_input__errorstate field_input_donestate">
+            <input type="text" class="field_input_inputtext" placeholder="Tìm kiếm theo tên,số hồ sơ">
+            <button class="fieldinput__deletebutton"></button>
+        </div>
+        </div>
+    </div>
+    <div class="m-row">
+        <label for="Input Icon"></label>
+        <div class="seachbox">
+            <img src="../assets/icon/search.png" alt="" class="searchbox__icon">
+            <input type="text" class="searchbox__input" placeholder="Tim kiem theo ten,ho so">
+        </div>
+    </div>
+    <div class="m-row">
+        <label for="">4.Toast Message</label>
+        <div class="m-toast-box">
+            <div class="m-toast-item m-toast-error">
+                <div class="m-toast-icon"><i class="fas fa-exclamation-circle"></i></div>
+                <div class="m-toast-text">Nội dung đi kèm tiêu đề</div>
+                <div class="m-toast-close"><i class="fas fa-times"></i></div>
+            </div>
+        </div>
+        <div class="m-toast-box">
+            <div class="m-toast-item m-toast-warning">
+                <div class="m-toast-icon"><i class="fas fa-exclamation-circle"></i></div>
+                <div class="m-toast-text">Nội dung đi kèm tiêu đề</div>
+                <div class="m-toast-close"><i class="fas fa-times"></i></div>
+            </div>
+        </div>
+        <div class="m-toast-box">
+            <div class="m-toast-item m-toast-success">
+                <div class="m-toast-icon"><i class="far fa-check-circle"></i></div>
+                <div class="m-toast-text">Nội dung đi kèm tiêu đề</div>
+                <div class="m-toast-close"><i class="fas fa-times"></i></div>
+            </div>
+        </div>
+        <div class="m-toast-box">
+            <div class="m-toast-item m-toast-infor">
+                <div class="m-toast-icon"><i class="fas fa-info-circle"></i></div>
+                <div class="m-toast-text">Nội dung đi kèm tiêu đề</div>
+                <div class="m-toast-close"><i class="fas fa-times"></i></div>
+            </div>
+        </div>
+
+    </div> 
+    <div class="m-row">
+        <label for="">6.Table</label>
+        <div class="m-row">
+        <table class="m-table" >
+            <thead>
+                <tr>
+                    <th class="text-align-center" style="width: 50px;">#</th>
+
+                    <th class="text-align-left" style="width: 100px;">Ma nhan vien</th>
+                    <th class="text-align-left" style="min-width: 100px;">Ho va Ten</th>
+                    <th class="text-align-left" style="width: 100px;">Gioi Tinh</th>
+                    <th class="text-align-center" style="width: 100px;">Ngay sinh</th>
+                    <th class="text-align-right" style="width: 150px;">Muc luong co ban</th>
+                    
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="text-align-center">
+                        <input type="checkbox"  checked>
+                    </td>
+                    <td class="text-align-left ">MF1760</td>
+                    <td class="text-align-left">Nguyen Ngoc Anh</td>
+                    <td class="text-align-left">Nam</td>
+                    <td class="text-align-center">19/08/2001</td>
+                    <td class="text-align-right">20.000.000</td>
+                    
+
+                </tr>
+                <tr>
+                    <td class="text-align-center">
+                        <input type="checkbox"  unchecked>
+                    </td>
+                    <td class="text-align-left ">MF1760</td>
+                    <td class="text-align-left">Nguyen Ngoc Anh</td>
+                    <td class="text-align-left">Nam</td>
+                    <td class="text-align-center">19/08/2001</td>
+                    <td class="text-align-right">20.000.000</td>
+                    
+
+                </tr>
+                <tr class="m-row-selected">
+                    <td class="text-align-center">
+                        <input type="checkbox" class="checkbox-checked" checked>
+                    </td>
+                    <td class="text-align-left ">MF1760</td>
+                    <td class="text-align-left">Nguyen Ngoc Anh</td>
+                    <td class="text-align-left">Nam</td>
+                    <td class="text-align-center">19/08/2001</td>
+                    <td class="text-align-right">20.000.000</td>
+                    
+
+                </tr>
+                <tr>
+                    <td class="text-align-center">
+                        <input type="checkbox"   class="checkbox" checked>
+                    </td>
+                    <td class="text-align-left ">MF1760</td>
+                    <td class="text-align-left">Nguyen Ngoc Anh</td>
+                    <td class="text-align-left">Nam</td>
+                    <td class="text-align-center">19/08/2001</td>
+                    <td class="text-align-right">20.000.000</td>
+                    
+
+                </tr>
+            </tbody>
+        </table>
+        </div>
+    </div>
+    <div class="m-paging">
+        <div class="m-paging-left">Hien thi 100/200 nhan vien</div>
+        <div class="m-paging-center">
+            <button class="m-btn-first"></button>
+            <button class="m-btn-preview"></button>
+            <div class="m-page-number">
+
+           <button class="m-btn-number m-btn-number-selected ">1</button>
+            <button class="m-btn-number">2</button>
+            <button class="m-btn-number">3</button>
+            </div>
+            <button class="m-btn-next"></button>
+            <button class="m-btn-last"></button>
+
+        </div>
+        <div class="m-paging-right">
+            <select name="" id="">
+                <option value="10"><p class="special-character">10</p> nhan vien</option>
+                <option value="20">20 nhan vien</option>
+                <option value="30">30 nhan vien</option>
+
+            </select>
+        </div>
+
+    </div>
+    <div class="m-row">
+        <label class="label 1" for="">8.Popup</label>
+        <div class="m-dialog">
+            <!-- <div class="m-dialog-model">
+
+            </div> -->
+            <div class="m-dialog-content">
+                <div class="m-dialog-header">
+                    <div class="m-dialog-header-left">
+                        <label for="" class="m-dialog-header-left-content">Đóng form thông tin chung</label>
+                    </div>
+                    <div class="m-dialog-header-right"></div>
+                </div>
+                <div class="m-dialog-body"></div>
+                <div class="m-dialog-footer">
+                    <div class="m-dialog-footer-btn"><button class="m-dialog-footer-btn1">Huỷ</button></div>
+                    <div class="m-dialog-footer-btn"><button class="m-dialog-footer-btn2">Đóng</button></div>
+
+                </div>
+            </div>
+        </div>
+    </div> 
+</body>
+</html>

@@ -1,0 +1,51 @@
+@import "../base.css";
+
+input {
+    background-color: #ffffff;
+    border-radius: 2.5px;
+    border: 1px solid #afafaf;
+    height: 35px;
+    overflow: hidden;
+    padding-left: 39px;
+    /* padding-right: 54px; */
+    padding-top: 11px;
+    padding-bottom: 10px;
+
+}
+
+input.search {
+    width: 179px;
+}
+
+input.filter {
+    width: 219px;
+}
+
+.square-24-24-left {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 50%;
+    left: 14px;
+    transform: translateY(-50%);
+}
+
+.square-24-24-right {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 50%;
+    /* right: -36px; */
+    right: 0px;
+    transform: translateY(-34%);
+}
+
+input.search::placeholder {
+    font-size: 13px;
+    font-style: italic;
+}
+
+input.filter::placeholder {
+    font-size: 13px;
+    margin-left: 39px;
+}

@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/main.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="box">
+        <nav class="nav-leftside">
+            <div>
+                <span class="logo">
+                    <a href="#">
+                        <div class="position-relative ">
+                            <div class="center-horizontal">
+                                <span class="sprite-logo margin__nav--logo"></span>
+                                <div class="menu__hidden--wrapper hide">
+                                    <span class="sidebar__icon--description">
+                                        <h2>MISA QLTS</h2>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </span>
+            </div>
+            <ul class="menu">
+
+                <li class="tivi opacity__sprite--50">
+                    <a href="#">
+                        <div class="position-relative center-horizontal menu__li--item-padding">
+                            <div class="rectangle-40-40 center-horizontal">
+                                <span class="sprite-tivi"> </span>
+                            </div>
+                            <div class="menu__hidden--wrapper hide ">
+                                <span class="sidebar__icon--description">Tổng quan</span>
+                            </div>
+
+                        </div>
+                    </a>
+                </li>
+                <li class="tivi opacity__sprite--50">
+                    <a href="#">
+                        <div class="position-relative center-horizontal menu__li--item-padding">
+                            <div class="rectangle-40-40 center-horizontal">
+                                <span class="sprite-car"> </span>
+                            </div>
+                            <div class="menu__hidden--wrapper hide ">
+                                <span class="sidebar__icon--description">Tài sản</span>
+                                <div class="square-24-24 center-horizontal">
+                                    <span class="sprite-down-arrow--white"> </span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </a>
+                </li>
+                <li class="tivi opacity__sprite--50">
+                    <a href="#">
+                        <div class="position-relative center-horizontal menu__li--item-padding">
+                            <div class="rectangle-40-40 center-horizontal">
+                                <span class="sprite-road"> </span>
+                            </div>
+                            <div class="menu__hidden--wrapper hide ">
+
+                                <span class="sidebar__icon--description"
+                                    title="Tài sản hình thành trong tương lai - Đơn vị bảo lãnh">Tài sản HT-ĐB</span>
+                                <div class="square-24-24 center-horizontal">
+                                    <span class="sprite-down-arrow--white"> </span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li class="tivi opacity__sprite--50">
+                    <a href="#">
+                        <div class="position-relative center-horizontal menu__li--item-padding">
+                            <div class="rectangle-40-40 center-horizontal">
+                                <span class="sprite-paint"> </span>
+                            </div>
+                            <div class="menu__hidden--wrapper hide ">
+
+                                <span class="sidebar__icon--description">Công cụ dụng cụ</span>
+                                <div class="square-24-24 center-horizontal">
+                                    <span class="sprite-down-arrow--white"> </span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li class="tivi opacity__sprite--50">
+                    <a href="#">
+                        <div class="position-relative center-horizontal menu__li--item-padding">
+                            <div class="rectangle-40-40 center-horizontal">
+                                <span class="sprite-task-list"> </span>
+                            </div>
+                            <div class="menu__hidden--wrapper hide ">
+                                <span class="sidebar__icon--description">Danh mục</span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li class="tivi opacity__sprite--50">
+                    <a href="#">
+                        <div class="position-relative center-horizontal menu__li--item-padding">
+                            <div class="rectangle-40-40 center-horizontal">
+                                <span class="sprite-search-bg-dark"> </span>
+                            </div>
+                            <div class="menu__hidden--wrapper hide ">
+                                <span class="sidebar__icon--description">Tra cứu</span>
+                                <div class="square-24-24 center-horizontal">
+                                    <span class="sprite-down-arrow--white"> </span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li class="tivi opacity__sprite--50">
+                    <a href="#">
+                        <div class="position-relative center-horizontal menu__li--item-padding">
+                            <div class="rectangle-40-40 center-horizontal">
+                                <span class="sprite-rating"> </span>
+                            </div>
+                            <div class="menu__hidden--wrapper hide ">
+
+                                <span class="sidebar__icon--description">Báo cáo</span>
+                                <div class="square-24-24 center-horizontal">
+                                    <span class="sprite-down-arrow--white"> </span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+            <footer class="hide">
+                <div class="position-relative center-horizontal menu__li--item-padding">
+                    <div class="rectangle-40-40 center-horizontal">
+                        <span class="sprite-square-arrow-left"> </span>
+                    </div>
+                </div>
+            </footer>
+        </nav>
+        <aside class="blue">
+            <header>
+                <span class="header__span--title bold ">Danh sách tài sản</span>
+                <div class="header__right header__div--center">
+                    <span class="header__span--faculty">Sở tài chính</span>
+                    <div class="header__right--year header__div--center">
+                        <span>Năm</span>
+                        <span class="bold header__year--margin">2021</span>
+                        <!-- <span class="sprite-rating"></span> -->
+                        <div class="header__div--wrapIcon">
+
+                            <span class="sprite-updown-arrow header__yearIcon--margin"></span>
+                        </div>
+                    </div>
+                    <div class="header__right--icon header__div--center">
+                        <div class="position-relative header__icon--margin">
+                            <div class="square-24-24">
+                                <span class="sprite-bell sprite-center "></span>
+                            </div>
+                        </div>
+                        <div class="position-relative header__icon--margin">
+                            <div class="square-24-24">
+                                <span class="sprite-grid sprite-center "></span>
+                            </div>
+                        </div>
+                        <div class="position-relative header__icon--margin">
+                            <div class="square-24-24">
+                                <span class="sprite-question sprite-center "></span>
+                            </div>
+                        </div>
+                        <div class="header__right--subicon header__icon--margin header__div--center ">
+                            <div class="position-relative ">
+                                <div class="square-24-24">
+                                    <span class="sprite-avatar sprite-center "></span>
+                                </div>
+                            </div>
+                            <span class="sprite-down-arrow headeRightr__arrow--marginl"></span>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <div class="aside__main aside__main--padding ">
+                <div class="aside__main--top">
+                    <div class="aside__main--left">
+                        <div class="wrapper-dropdown">
+                            <div class="position-relative">
+                                <div class="square-24-24-left">
+                                    <span class="sprite-search sprite-center"></span>
+                                </div>
+                                <input type="text" class="search " value placeholder="Tìm kiếm tài sản">
+                            </div>
+                        </div>
+                        <div class="wrapper-dropdown">
+                            <div class="position-relative">
+                                <div class="square-24-24-left">
+                                    <span class="sprite-filter sprite-center"></span>
+                                </div>
+                                <input type="text" class="filter margin__asided--input" value
+                                    placeholder="Loại tài sản">
+                                <div class="square-24-24-right">
+                                    <span class="sprite-dropdown sprite-center"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="wrapper-dropdown">
+                            <div class="position-relative">
+                                <div class="square-24-24-left">
+                                    <span class="sprite-filter sprite-center"></span>
+                                </div>
+                                <input type="text" class="filter margin__asided--input" value
+                                    placeholder="Bộ phận sử dụng">
+                                <div class="square-24-24-right">
+                                    <span class="sprite-dropdown sprite-center"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="aside__main--right">
+                        <button class="button-with-icon" id="myButton"><span class="sprite-plus"></span>Thêm tài
+                            sản</button>
+                        <!-- <button class="button-one-icon margin__asided--button "> -->
+                        <!-- <span class="sprite-delete "></span> -->
+                        <div class="wrapper-dropdown">
+                            <div class="position-relative">
+                                <div class="square-36-36 button-one-icon">
+                                    <span class="sprite-delete sprite-center"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- </button> -->
+                        <div class="wrapper-dropdown">
+                            <div class="position-relative">
+                                <div class="square-36-36 button-one-icon">
+                                    <span class="sprite-excel sprite-center"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <table id="demo" class="table table-bordered table-striped">
+                        <thead>
+                            <tr>
+                                <th><input type="checkbox" class="checkbox"></th>
+                                <th title="Số thứ tự">STT</th>
+                                <th>Mã tài sản</th>
+                                <th>Tên tài sản</th>
+                                <th>Loại tài sản</th>
+                                <th>Bộ phận sử dụng</th>
+                                <th>Số lượng</th>
+                                <th>Nguyên giá</th>
+                                <th title="Hao mòn/ khấu hao lũy kế">HM/KH lũy kế</th>
+                                <th>Giá trị còn lại</th>
+                                <th>Chức năng</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><input type="checkbox" class="checkbox"></td>
+                                <td>1</td>
+                                <td>MXT88618</td>
+                                <td>Máy tính xách tay Fujitsu</td>
+                                <td>Máy vi tính xách</td>
+                                <td>Phòng Hành chính Kế toán</td>
+                                <td>1</td>
+                                <td>10.000.000</td>
+                                <td>1.225.000</td>
+                                <td>8.775.000</td>
+                                <td class="center-all-items">
+                                    <div class="wrapper-dropdown">
+                                        <div class="position-relative">
+                                            <div class="square-24-24">
+                                                <span class="sprite-edit sprite-center"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="wrapper-dropdown">
+                                        <div class="position-relative">
+                                            <div class="square-24-24">
+                                                <span class="sprite-copy sprite-center"></span>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox" class="checkbox"></td>
+                                <td>2</td>
+                                <td>37H7WN72/2022</td>
+                                <td>Dell Inspiron 3467</td>
+                                <td>Máy vi tính xách</td>
+                                <td>Phòng Hành chính Kế toán</td>
+                                <td>1</td>
+                                <td>40.000.000</td>
+                                <td>1.730.000</td>
+                                <td>38.270.000</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox" class="checkbox"></td>
+                                <td>3</td>
+                                <td>MXT8866</td>
+                                <td>Máy tính xách tay Fujitsu</td>
+                                <td>Máy vi tính xách</td>
+                                <td>Phòng Hành chính Kế toán</td>
+                                <td>1</td>
+                                <td>5.000.000</td>
+                                <td>1.646.000</td>
+                                <td>3.354.000</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td colspan="6">
+                                    <div class="table-footer">
+                                        <nav class="data-pagination">
+                                            <span>Tổng số: <span class="bold">200</span> bản ghi </span>
+                                            <div class="wrapper-dropdown pagination__margin--30px">
+                                                <div class="position-relative">
+                                                    <div class="rectangle-25-59 center-2-items">
+                                                        <span class="">20</span>
+                                                        <span class="sprite-down-arrow "></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <a href="#" class="wrapper-dropdown pagination__margin--20px">
+                                                <span class="sprite-left-arrow "></span>
+                                            </a>
+                                            <ul class="">
+                                                <li class="current"><a href="#1">1</a>
+                                                <li><a href="#2">2</a>
+                                                <li><a href="#10">…</a>
+                                                <li><a href="#10">10</a>
+                                            </ul>
+                                            <a href="#" class="wrapper-dropdown">
+                                                <span class="sprite-right-arrow "></span>
+                                            </a>
+                                        </nav>
+                                    </div>
+                                </td>
+                                <td class="bold text__align--right">13</td>
+                                <td class="bold text__align--right">249.000.000</td>
+                                <td class="bold text__align--right">19.716.000</td>
+                                <td class="bold text__align--right">229.284.000</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </aside>
+    </div>
+    <div id="myPopup" class="popup">
+        <div class="popup-content">
+            <h2>Sửa tài sản</h2>
+            <form class="form-validation">
+                <div class="sub-entry">
+                    <div class="form-row form-input-name-row">
+                        <div>Mã tài sản <span class="red-text">*</span></div>
+                        <label>
+                            <input name="field1" type="text">
+                        </label>
+                    </div>
+
+                    <div class="form-row form-input-name-row">
+                        <label>
+                            <div>Mã bộ phận sử dụng <span class="red-text">*</span></div>
+
+                        </label>
+                        <div class="">
+                            <div class="position-relative">
+                                <input type="text" class="filter italic-font" value
+                                    placeholder="Chọn mã bộ phận sử dụng">
+                                <div class="square-24-24-right">
+                                    <span class="sprite-dropdown sprite-center"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-row form-input-name-row">
+                        <label>
+                            <div>Mã loại tài sản <span class="red-text">*</span></div>
+
+                        </label>
+                        <div class="">
+                            <div class="position-relative">
+                                <input type="text" class="filter italic-font" value placeholder="Chọn mã loại tài sản">
+                                <div class="square-24-24-right">
+                                    <span class="sprite-dropdown sprite-center"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-row form-input-name-row">
+                        <label>
+                            <div>Số lượng <span class="red-text">*</span></div>
+
+                        </label>
+                        <div class="">
+                            <div class="position-relative">
+                                <input type="number" class="filter number" value="01"
+                                    placeholder="Chọn mã loại tài sản">
+                                <div class="square-24-24-right">
+                                    <span class="sprite-updown-arrow sprite-center"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-row form-input-name-row">
+                        <label>
+                            <div>Tỷ lệ hao mòn (%) <span class="red-text">*</span></div>
+                            <div class="">
+                                <div class="position-relative">
+                                    <input type="number" class="filter number" value="0"
+                                        placeholder="Chọn mã loại tài sản">
+                                    <div class="square-24-24-right">
+                                        <span class="sprite-updown-arrow sprite-center"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </label>
+                    </div>
+
+                    <div class="form-row form-input-name-row">
+                        <label>
+                            <div>Ngày mua <span class="red-text">*</span></div>
+                            <input name="field3" type="date" class="date-input">
+                        </label>
+                    </div>
+                </div>
+                <div class="clearfix">
+                    <div class="sub-entry-2 margin-left">
+                        <div class="main-content">
+                            <div class="form-row form-input-name-row special-margin-top">
+                                <label>
+                                    <div>Tên tài sản<span class="red-text">*</span></div>
+                                    <input name="field3" class="italic" type="text" placeholder="Nhập tên tài sản">
+                                </label>
+                            </div>
+                            <div class="form-row form-input-name-row">
+                                <label>
+                                    <div>Tên bộ phận sử dụng<span class="red-text">*</span></div>
+                                    <input name="field3 width-100" type="text" disabled>
+                                </label>
+                            </div>
+                            <div class="form-row form-input-name-row">
+                                <label>
+                                    <div>Tên loại tài sản<span class="red-text">*</span></div>
+                                    <input name="field3 width-100" type="text" disabled>
+                                </label>
+                            </div>
+
+                            <div class="clearfix">
+                                <div class="sub-entry-3 ">
+                                    <div class="main-content">
+                                        <div class="form-row form-input-name-row">
+                                            <label>
+                                                <div>Nguyên giá<span class="red-text">*</span></div>
+
+                                            </label>
+                                            <div class="">
+                                                <div class="position-relative">
+                                                    <input type="number" class="filter number-without-icon" value="0"
+                                                        placeholder="Chọn mã loại tài sản">
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-row form-input-name-row">
+                                            <label>
+                                                <div>Giá trị hao mòn<span class="red-text">*</span></div>
+
+                                            </label>
+                                            <div class="">
+                                                <div class="position-relative">
+                                                    <input type="number" class="filter number-without-icon" value="0"
+                                                        placeholder="Chọn mã loại tài sản">
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-row form-input-name-row">
+                                        <label>
+                                            <div>Ngày bắt đầu sử dụng<span class="red-text">*</span></div>
+                                            <input name="field3" type="date" class="date-input">
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="clearfix">
+                                    <div class="sub-entry-4 margin-left">
+                                        <div class="main-content">
+                                            <div class="form-row form-input-name-row">
+                                                <label>
+                                                    <div>Số năm sử dụng<span class="red-text">*</span></div>
+
+                                                </label>
+                                                <div class="">
+                                                    <div class="position-relative">
+                                                        <input type="number" class="filter number-without-icon"
+                                                            value="0" placeholder="Chọn mã loại tài sản">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="form-row form-input-name-row">
+                                                <label>
+                                                    <div>Năm theo dõi<span class="red-text">*</span></div>
+
+                                                </label>
+                                                <div class="">
+                                                    <div class="position-relative">
+                                                        <input type="number" class="filter number-without-icon"
+                                                            value="2021" placeholder="Chọn mã loại tài sản" disabled>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="form__div--button">
+                    <button class="button button__background--cancel">Hủy</button>
+                    <button class="button button__background--save">Lưu</button>
+                </div>
+
+            </form>
+        </div>
+    </div>
+</body>
+<script>
+    $('.nav-leftside li').click(function () {
+        var subMenu = $(this).attr('class').substring(-1, 7);
+        $(this).siblings().removeClass('active');
+        $(this).toggleClass('active');
+        $(this).removeClass('opacity__sprite--50');
+        $(this).siblings().addClass('opacity__sprite--50');
+        // $(this).find('.sidebar__icon--description').addClass('hide')
+        if ($(this).find('.hide').length) {
+            $(this).find('.hide').removeClass('hide')
+            $('.logo .hide').removeClass('hide')
+        }
+        if ($(this).siblings().find('.hide').length) {
+            $(this).siblings().find('.hide').removeClass('hide')
+        }
+        $('footer').removeClass('hide')
+        $('.nav-leftside').width(250)
+    });
+    $('footer').click(function () {
+        $('.nav-leftside .menu__hidden--wrapper').addClass('hide')
+        $('footer').addClass('hide')
+        $('.nav-leftside').width(66)
+    })
+    // $('li .sidebar__icon--description').click(function () {
+    //     $(this).addClass('hide');
+
+    // });
+
+
+    myButton.addEventListener("click", function () {
+        myPopup.classList.add("show");
+    });
+    closePopup.addEventListener("click", function () {
+        myPopup.classList.remove("show");
+    });
+    window.addEventListener("click", function (event) {
+        if (event.target == myPopup) {
+            myPopup.classList.remove("show");
+        }
+    });
+
+    var date_input = document.getElementsByClassName("date-input");
+
+    for (var i = 0; i < date_input.length; ++i) {
+        var item = date_input[i];
+        item.valueAsDate = new Date()
+    }
+</script>
+
+</html>
